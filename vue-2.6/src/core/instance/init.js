@@ -68,7 +68,6 @@ export function initMixin (Vue: Class<Component>) {
     if (vm.$options.el) {
       vm.$mount(vm.$options.el)
     }
-  }
 }
 
 export function initInternalComponent (vm: Component, options: InternalComponentOptions) {
